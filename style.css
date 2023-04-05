@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "font-1";
+    src: url(./assets/fonts/VegawantyRegular-owEPx.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(161, 123, 80);
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+}
+
+h1 {
+    font-family: "font-1";
+    font-size: 8rem;
+    color: rgb(181, 190, 59);
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+#monImage {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    transition: transform 3s cubic-bezier(0.2, 0.8, 0.2, 1), transform 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
