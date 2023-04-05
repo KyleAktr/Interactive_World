@@ -12,11 +12,19 @@
 body {
     background: rgb(161, 123, 80);
     height: 100vh;
+    overflow: hidden;
 }
 
 .container {
-    position: relative;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 h1 {
     font-family: "font-1";
