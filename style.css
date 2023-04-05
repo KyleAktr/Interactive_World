@@ -1,6 +1,18 @@
+:root {
+    --color1: rgb(181, 190, 59);
+}
+
 @font-face {
     font-family: "font-1";
     src: url(./assets/fonts/VegawantyRegular-owEPx.ttf);
+}
+@font-face {
+    font-family: "font-2";
+    src: url(./assets/fonts/algha-demo.otf);
+}
+@font-face {
+    font-family: "font-3";
+    src: url(./assets/fonts/ThenaskleRegular-x3Vlq.ttf);
 }
 
 * {
@@ -29,15 +41,36 @@ body {
 h1 {
     font-family: "font-1";
     font-size: 8rem;
-    color: rgb(181, 190, 59);
+    color: rgb(189, 184, 51);;
     position: absolute;
     text-align: center;
-    top: 70%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+#enter-btn {
+    font-family: "font-1";
+    background: transparent;
+    cursor: pointer;
+    font-size: 2.3rem;
+    padding: 10px 20px;
+    color: rgb(181, 190, 59);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#enter-btn:hover {
+    color: black;
+    backdrop-filter: blur(100px);
+    background: url(./assets/img/bg-gta.jpg);
+    background-size: cover;
+}
   
 #monImage {
+    width: 550px;
     display: flex;
     align-items: center;
     margin: 0 auto;
