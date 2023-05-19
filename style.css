@@ -40,8 +40,9 @@ body {
 
 h1 {
     font-family: "font-1";
-    font-size: 8rem;
-    color: rgb(189, 184, 51);;
+    font-size: 6rem;
+    color: rgb(189, 184, 51);
+    text-shadow: -3px 1px 0 rgba(47, 47, 47, 0.413);
     position: absolute;
     text-align: center;
     top: 65%;
@@ -53,7 +54,7 @@ h1 {
     font-family: "font-1";
     background: transparent;
     cursor: pointer;
-    font-size: 2.3rem;
+    font-size: 1.9rem;
     padding: 10px 20px;
     color: rgb(181, 190, 59);
     position: absolute;
@@ -89,7 +90,7 @@ h1 {
 }
   
 #monImage {
-    width: 550px;
+    width: 400px;
     display: flex;
     align-items: center;
     margin: 0 auto;
